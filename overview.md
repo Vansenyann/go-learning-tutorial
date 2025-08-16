@@ -20,7 +20,7 @@ Go语言项目在2009年11月10日正式开源，这一天也被Go官方确定�
 2. Go的声明语法、包概念则受到了Pascal、Modula、Oberon的启发；
 3. 并发的思想则来自受到Tony Hoare教授CSP理论[1]影响的编程语言，比如Newsqueak和Limbo。
 
-<img src="images\go的演进.png" width="80%" height="80%">
+<img src="images\go的演进.png" width=80% height=80%>
 
 ## 3. 设计哲学
 
@@ -117,7 +117,7 @@ go语言原生支持并发的设计哲学体现：
    1. 单核年代的编程语言设计: c++, java
       1. 执行单元:线程
       2. 创建和销毁的方式: 调用os库函数或调用对象方法
-      3. 并发线程间的通信: os提供的ipc(进程间通信))机制, 比如共享内存,socket,pipe, 有并发保护的全局变量
+      3. 并发线程间的通信: os提供的ipc(进程间通信)机制, 比如共享内存,socket,pipe, 有并发保护的全局变量
    2. go:
       1. 执行单元: goroutine
       2. 创建和销毁: go+函数调用, 函数退出就是goroutine退出
