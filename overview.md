@@ -20,7 +20,7 @@ Go语言项目在2009年11月10日正式开源，这一天也被Go官方确定�
 2. Go的声明语法、包概念则受到了Pascal、Modula、Oberon的启发；
 3. 并发的思想则来自受到Tony Hoare教授CSP理论[1]影响的编程语言，比如Newsqueak和Limbo。
 
-`<img src="images\go的演进.png" width="80% height=80%>`
+<img src="images\go的演进.png" width="80%" height="80%">
 
 ## 3. 设计哲学
 
